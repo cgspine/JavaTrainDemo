@@ -21,7 +21,7 @@ public class AnnotationDemo {
     }
 
     @Documented
-    @Retention(RetentionPolicy.RUNTIME)
+    @Retention(RetentionPolicy.SOURCE)
     @Target(ElementType.METHOD)
     @Inherited
     public @interface MethodInfo {
